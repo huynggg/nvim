@@ -162,9 +162,9 @@ return {
         "ts_ls",
 
         -- Python
-        "pyright",
         "pylsp",
         "djlsp",
+        "ruff",
 
         -- Shell
         "bashls",
@@ -188,7 +188,7 @@ return {
         "marksman",
 
         -- Formatters
-        "autopep8",
+        "black",
         "clang-format",
         "shfmt",
         "stylua",
