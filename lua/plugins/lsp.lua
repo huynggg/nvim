@@ -62,7 +62,8 @@ return {
           map("<leader>ws", require("telescope.builtin").lsp_workspace_symbols, "Workspace Symbols")
 
           -- Actions
-          map("<leader>rn", vim.lsp.buf.rename, "Rename")
+          -- Turn Rename off due to conflicting with the inc_rename plugin
+          -- map("<leader>rn", vim.lsp.buf.rename, "Rename")
           map("<leader>ca", vim.lsp.buf.code_action, "Code Action", { "n", "x" })
           map("gD", vim.lsp.buf.declaration, "Goto Declaration")
 

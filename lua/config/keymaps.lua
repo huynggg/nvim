@@ -37,3 +37,10 @@ map("t", "<Esc><Esc>", "<C-\\><C-n>", {
 map("n", "<leader>gc", function()
   vim.fn.system("git add -A && git commit -m 'Updated'")
 end, { desc = "Quick Git Commit" })
+
+-- ---------------------------------------------------------
+-- Quick Rename (inc_rename)
+-- ---------------------------------------------------------
+vim.keymap.set("n", "<leader>rn", function()
+  return ":IncRename " .. vim.fn.expand("<cword>")
+end, { expr = true })
