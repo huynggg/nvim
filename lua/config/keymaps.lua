@@ -34,9 +34,9 @@ map("t", "<Esc><Esc>", "<C-\\><C-n>", {
 -- ---------------------------------------------------------
 -- Git (quick commit)
 -- ---------------------------------------------------------
-map("n", "<leader>gc", function()
-  vim.fn.system("git add -A && git commit -m 'Updated'")
-end, { desc = "Quick Git Commit" })
+-- map("n", "<leader>gc", function()
+--   vim.fn.system("git add -A && git commit -m 'Updated'")
+-- end, { desc = "Quick Git Commit" })
 
 -- ---------------------------------------------------------
 -- Quick Rename (inc_rename)
