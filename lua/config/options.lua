@@ -31,6 +31,7 @@ vim.opt.smartcase = true
 vim.opt.signcolumn = "yes"
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
+vim.o.termguicolors = true
 
 -- ---------------------------------------------------------
 -- Performance
