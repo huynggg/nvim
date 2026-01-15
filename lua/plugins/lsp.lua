@@ -28,7 +28,7 @@ return {
       "WhoIsSethDaniel/mason-tool-installer.nvim",
 
       -- Status updates
-      { "j-hui/fidget.nvim", opts = {} },
+      { "j-hui/fidget.nvim",       opts = {} },
 
       -- Completion capabilities
       "hrsh7th/cmp-nvim-lsp",
@@ -157,13 +157,13 @@ return {
         "bashls",
 
         -- Beancount
-        "beancount",
+        -- "beancount",
 
         -- C / C++
         "clangd",
 
         -- Go
-        "gopls",
+        -- "gopls",
 
         -- Templates
         "jinja_lsp",
